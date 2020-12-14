@@ -11,7 +11,7 @@ body {
 
 header {
   min-height: 100vh;
-  color: white;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,7 +26,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  background-color: black;
+  background-color: white;
 }
 
 header h1 {
@@ -35,14 +35,23 @@ header h1 {
 }
 
 header h2 {
-  font-size: 15rem;
+  font-size: 10vh;
   font-family: bebas;
   margin-bottom: 50px;
 }
 
+header h3 {
+  font-size: 3vh;
+  font-family: bebas;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 8vh;
+  word-spacing: 36vh;
+}
+
 .countdown {
-  color: #FFF;
-  font-size: 6rem;
+  color: black;
+  font-size: 26vh;
   font-weight: 400;
   font-family: Digital-7;
 }
